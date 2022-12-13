@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[mouseHoverToComponentsTab[[ChromeDriver: chrome on WINDOWS (83ee3d3bcbef011952a7a193cf42654f)] -> link text: Components]]]>
+    </line>
+    <line>
+      <![CDATA[Select menu [[ChromeDriver: chrome on WINDOWS (83ee3d3bcbef011952a7a193cf42654f)] -> xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*]]]>
+    </line>
+    <line>
+      <![CDATA[getComponentsText[[ChromeDriver: chrome on WINDOWS (83ee3d3bcbef011952a7a193cf42654f)] -> xpath: //h2[contains(text(),'Components')]]]]>
+    </line>
+    <line>
+      <![CDATA[ Mousehover and Click on desktop [[ChromeDriver: chrome on WINDOWS (7fabf40c03dfa7e33e2c4eb0ffc5ae94)] -> link text: Desktops]]]>
+    </line>
+    <line>
+      <![CDATA[Select menu [[ChromeDriver: chrome on WINDOWS (7fabf40c03dfa7e33e2c4eb0ffc5ae94)] -> xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*]]]>
+    </line>
+    <line>
+      <![CDATA[get Text Desktop[[ChromeDriver: chrome on WINDOWS (7fabf40c03dfa7e33e2c4eb0ffc5ae94)] -> xpath: //h2[contains(text(),'Desktops')]]]]>
+    </line>
+    <line>
+      <![CDATA[mouseHoverOnLaptopsAndNotebooksTab[[ChromeDriver: chrome on WINDOWS (d9bd26d8afe5a931c0a2cbf99eb43a3a)] -> link text: Laptops & Notebooks]]]>
+    </line>
+    <line>
+      <![CDATA[Select menu [[ChromeDriver: chrome on WINDOWS (d9bd26d8afe5a931c0a2cbf99eb43a3a)] -> xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*]]]>
+    </line>
+    <line>
+      <![CDATA[getLaptopsAndNotebooksText[[ChromeDriver: chrome on WINDOWS (d9bd26d8afe5a931c0a2cbf99eb43a3a)] -> xpath: //h2[contains(text(),'Laptops & Notebooks')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="14327" started-at="2022-12-13T12:52:26 GMT" finished-at="2022-12-13T12:52:40 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="TopMenuPageTest.verifyUserShouldNavigateToComponentsPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="verifyUserShouldNavigateToComponentsPageSuccessfully" class="com.tutorialninja.testsuite.TopMenuPageTest"/>
+        <method signature="TopMenuPageTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.tutorialninja.testsuite.TopMenuPageTest"/>
+        <method signature="TopMenuPageTest.verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully" class="com.tutorialninja.testsuite.TopMenuPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TopMenuPageTest.verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully" class="com.tutorialninja.testsuite.TopMenuPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TopMenuPageTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.tutorialninja.testsuite.TopMenuPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Login Page Test" duration-ms="14327" started-at="2022-12-13T12:52:26 GMT" finished-at="2022-12-13T12:52:40 GMT">
+      <class name="com.tutorialninja.testsuite.TopMenuPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="setUp" is-config="true" duration-ms="4612" started-at="2022-12-13T12:52:26 GMT" finished-at="2022-12-13T12:52:30 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="inIt" is-config="true" duration-ms="22" started-at="2022-12-13T12:52:30 GMT" finished-at="2022-12-13T12:52:30 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToComponentsPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="verifyUserShouldNavigateToComponentsPageSuccessfully" duration-ms="627" started-at="2022-12-13T12:52:30 GMT" finished-at="2022-12-13T12:52:31 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[mouseHoverToComponentsTab[[ChromeDriver: chrome on WINDOWS (83ee3d3bcbef011952a7a193cf42654f)] -> link text: Components]]]>
+            </line>
+            <line>
+              <![CDATA[Select menu [[ChromeDriver: chrome on WINDOWS (83ee3d3bcbef011952a7a193cf42654f)] -> xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*]]]>
+            </line>
+            <line>
+              <![CDATA[getComponentsText[[ChromeDriver: chrome on WINDOWS (83ee3d3bcbef011952a7a193cf42654f)] -> xpath: //h2[contains(text(),'Components')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToComponentsPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="tearDown" is-config="true" duration-ms="601" started-at="2022-12-13T12:52:31 GMT" finished-at="2022-12-13T12:52:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="setUp" is-config="true" duration-ms="2622" started-at="2022-12-13T12:52:32 GMT" finished-at="2022-12-13T12:52:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" duration-ms="931" started-at="2022-12-13T12:52:34 GMT" finished-at="2022-12-13T12:52:35 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[ Mousehover and Click on desktop [[ChromeDriver: chrome on WINDOWS (7fabf40c03dfa7e33e2c4eb0ffc5ae94)] -> link text: Desktops]]]>
+            </line>
+            <line>
+              <![CDATA[Select menu [[ChromeDriver: chrome on WINDOWS (7fabf40c03dfa7e33e2c4eb0ffc5ae94)] -> xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*]]]>
+            </line>
+            <line>
+              <![CDATA[get Text Desktop[[ChromeDriver: chrome on WINDOWS (7fabf40c03dfa7e33e2c4eb0ffc5ae94)] -> xpath: //h2[contains(text(),'Desktops')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToDesktopsPageSuccessfully -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="inIt" is-config="true" duration-ms="0" started-at="2022-12-13T12:52:34 GMT" finished-at="2022-12-13T12:52:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="tearDown" is-config="true" duration-ms="600" started-at="2022-12-13T12:52:35 GMT" finished-at="2022-12-13T12:52:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="setUp" is-config="true" duration-ms="2679" started-at="2022-12-13T12:52:36 GMT" finished-at="2022-12-13T12:52:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="inIt" is-config="true" duration-ms="2" started-at="2022-12-13T12:52:39 GMT" finished-at="2022-12-13T12:52:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully" duration-ms="740" started-at="2022-12-13T12:52:39 GMT" finished-at="2022-12-13T12:52:39 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[mouseHoverOnLaptopsAndNotebooksTab[[ChromeDriver: chrome on WINDOWS (d9bd26d8afe5a931c0a2cbf99eb43a3a)] -> link text: Laptops & Notebooks]]]>
+            </line>
+            <line>
+              <![CDATA[Select menu [[ChromeDriver: chrome on WINDOWS (d9bd26d8afe5a931c0a2cbf99eb43a3a)] -> xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*]]]>
+            </line>
+            <line>
+              <![CDATA[getLaptopsAndNotebooksText[[ChromeDriver: chrome on WINDOWS (d9bd26d8afe5a931c0a2cbf99eb43a3a)] -> xpath: //h2[contains(text(),'Laptops & Notebooks')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.testsuite.TopMenuPageTest@704d6e83]" name="tearDown" is-config="true" duration-ms="614" started-at="2022-12-13T12:52:39 GMT" finished-at="2022-12-13T12:52:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.testsuite.TopMenuPageTest -->
+    </test> <!-- Login Page Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
